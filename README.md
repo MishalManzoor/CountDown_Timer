@@ -1,7 +1,7 @@
-
 # CountDown Timer
 
-Basic Countdown app
+## Copyright © Mishal 2024. All rights reserved.
+## This project is not licensed for external use. All rights reserved.
 
 
 ## Screenshots
