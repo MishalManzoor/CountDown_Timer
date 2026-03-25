@@ -39,22 +39,3 @@ class ReceiverClass : BroadcastReceiver() {
 }
 
 
-/*
-class BroadCast : BroadcastReceiver() {
-    override fun onReceive(p0: Context, p1: Intent?) {
-
-       val builder : NotificationCompat.Builder =
-           NotificationCompat.Builder(p0, "ch")
-               .setSmallIcon(R.drawable.ic_launcher_background)
-               .setContentTitle("Alarm turn ON")
-               .setContentText("Alarm is ringing")
-               .setAutoCancel(true)
-               .setDefaults(NotificationCompat.DEFAULT_ALL)
-               .setPriority(NotificationCompat.PRIORITY_HIGH)
-
-        val notificationManagerCompat =
-            NotificationManagerCompat.from(p0)
-        notificationManagerCompat.notify(123,builder.build())
-    }
-}
- */
